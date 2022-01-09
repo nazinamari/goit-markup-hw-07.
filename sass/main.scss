@@ -1,0 +1,20 @@
+@import "./base/reset";
+@import "./base/common";
+@import "./utils/variables";
+@import "./utils/hidden";
+
+@import "./components/container";
+@import "./components/section";
+@import "./components/second-title";
+@import "./components/btn";
+@import "./components/socials";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/work";
+@import "./layout/team.scss";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio";
+@import "./layout/modal";
