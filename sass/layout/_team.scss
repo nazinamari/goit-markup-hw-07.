@@ -48,12 +48,6 @@
   margin-bottom: 16px;
 }
 
-.social-list {
-  & + & {
-    padding-left: 10px;
-  }
-}
-
 .social-link {
   width: 100%;
   height: 100%;
@@ -69,11 +63,5 @@
   &:focus {
     background-color: var(--accent-color);
     color: #ffffff;
-  }
-}
-
-.social-item {
-  & + & {
-    margin-left: 10px;
   }
 }

@@ -10,3 +10,14 @@
 .social-icon {
   fill: currentColor;
 }
+.social-list {
+  & + & {
+    padding-left: 10px;
+  }
+}
+
+.social-item {
+  & + & {
+    margin-left: 10px;
+  }
+}
