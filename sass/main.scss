@@ -1,20 +1,20 @@
-@import "./base/reset";
-@import "./base/common";
 @import "./utils/variables";
 @import "./utils/hidden";
+
+@import "./base/common";
+@import "./base/reset";
 
 @import "./components/container";
 @import "./components/section";
 @import "./components/second-title";
-@import "./components/btn";
 @import "./components/socials";
+@import "./components/btn";
 
 @import "./layout/header";
-@import "./layout/hero";
-@import "./layout/features";
-@import "./layout/work";
-@import "./layout/team.scss";
 @import "./layout/clients";
+@import "./layout/hero";
+@import "./layout/team";
+@import "./layout/work";
+@import "./layout/features";
 @import "./layout/footer";
-@import "./layout/portfolio";
 @import "./layout/modal";
