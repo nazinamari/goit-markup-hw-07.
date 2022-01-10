@@ -54,10 +54,7 @@
 }
 
 .modal-title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
+  @include font-list (600, 20px, 1.15, 0.03em);
   text-align: center;
   color: var(--second-title-color);
   margin-bottom: 12px;

@@ -16,11 +16,8 @@
 
 .project-btn {
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  @include font-list (500, 16px, 1.62, 0.03em);
   text-align: center;
-  letter-spacing: 0.03em;
   border-radius: 4px;
   color: var(--second-title-color);
   padding: 6px 22px;
@@ -66,10 +63,7 @@
 }
 
 .project-item-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font-list (700, 18px, 2, 0.06em);
   color: var(--second-title-color);
   margin-bottom: 4px;
 }
