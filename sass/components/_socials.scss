@@ -1,7 +1,7 @@
 .social-list {
-  display: flex;
-  justify-content: center;
+  @extend %align-list;
 }
+
 .social-item {
   width: 44px;
   height: 44px;
