@@ -5,9 +5,7 @@
   margin-bottom: 50px;
 }
 .team-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %align-list
 }
 
 .team-item {
