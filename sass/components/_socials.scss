@@ -2,7 +2,7 @@
   @extend %align-list;
 }
 
-.social-item {
+.social-list__item {
   width: 44px;
   height: 44px;
 }
@@ -16,7 +16,7 @@
   }
 }
 
-.social-item {
+.social-list__item {
   & + & {
     margin-left: 10px;
   }

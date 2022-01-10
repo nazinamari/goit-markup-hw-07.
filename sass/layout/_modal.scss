@@ -43,7 +43,9 @@
   top: 7px;
   right: 8px;
   cursor: pointer;
-  @extend %aligh-list
+  display: block;
+  align-items: center;
+  justify-content: center;
   transition: fill 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover {
@@ -51,8 +53,11 @@
   }
 }
 
-.modal-title {
-  @include font-list (600, 20px, 1.15, 0.03em);
+.modal__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--second-title-color);
   margin-bottom: 12px;
@@ -78,11 +83,11 @@
   }
 }
 
-.modal-form-field {
+.modal-form__field {
   margin-bottom: 10px;
 }
 
-.modal-input-wrap {
+.modal-input__wrap {
   position: relative;
   margin-top: 4px;
 }
@@ -121,7 +126,7 @@
   }
 }
 
-.modal-input-label {
+.modal-input__label {
   font-weight: 400;
   font-size: 12px;
   line-height: 1, 16;

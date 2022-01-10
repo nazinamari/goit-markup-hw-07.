@@ -1,14 +1,16 @@
 .team {
   background-color: #f5f4fa;
 }
-.team-title {
+.team__title {
   margin-bottom: 50px;
 }
 .team-list {
-  @extend %align-list
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.team-item {
+.team-list__item {
   margin-right: 30px;
   width: calc(100% / 4);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -19,7 +21,7 @@
   margin-right: 0px;
 }
 
-.description {
+.team__description {
   padding-top: 30px;
   padding-bottom: 30px;
   border-bottom-right-radius: 4px;
@@ -27,10 +29,13 @@
   background-color: #ffffff;
 }
 
-.name {
+.team__name {
   margin-bottom: 10px;
-  @include font-list (500, 16px, 1.18, 0.03em);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
   text-align: center;
+  letter-spacing: 0.03em;
   color: var(--second-title-color);
 }
 

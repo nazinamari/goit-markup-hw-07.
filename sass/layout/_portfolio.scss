@@ -10,14 +10,17 @@
   justify-content: center;
 }
 
-.project-btn-item:not(:last-child) {
+.project-nav__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.project-btn {
+.project-nav__btn {
   font-family: inherit;
-  @include font-list (500, 16px, 1.62, 0.03em);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
   border-radius: 4px;
   color: var(--second-title-color);
   padding: 6px 22px;
@@ -39,7 +42,7 @@
   margin-bottom: -30px;
 }
 
-.project-item {
+.projects-list__item {
   flex-basis: calc((100% - 3 * 30px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -55,20 +58,23 @@
   height: auto;
 }
 
-.project-item-name {
+.project-item__name {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.project-item-title {
-  @include font-list (700, 18px, 2, 0.06em);
+.project-item__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--second-title-color);
   margin-bottom: 4px;
 }
 
-.project-item-text {
+.project-item__text {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -95,7 +101,7 @@
   }
 }
 
-.project-item-wrap {
+.project-item__wrap {
   position: relative;
   overflow: hidden;
 }

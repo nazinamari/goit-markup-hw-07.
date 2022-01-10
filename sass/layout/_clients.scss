@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
 }
 
@@ -7,13 +7,15 @@
   @extend %align-list;
 }
 
-.clients-item {
+.clients-list__item {
   width: 170px;
   height: 92px;
 }
 
-.clients-item + .clients-item {
-  margin-left: 30px;
+.clients-list__item {
+  & + & {
+    margin-left: 30px;
+  }
 }
 
 .clients-link {
