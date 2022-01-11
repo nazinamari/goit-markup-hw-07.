@@ -21,7 +21,7 @@
   margin: -1px;
 }
 
-.hero-btn, .modal-btn, .sub-btn {
+.hero__btn, .modal-btn, .sub-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -121,7 +121,7 @@ ul {
   margin-left: 10px;
 }
 
-.hero-btn {
+.hero__btn {
   left: 700px;
   top: 430px;
 }
@@ -623,7 +623,7 @@ ul {
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(1.5);
+  transform: translate(100px) scale(1.5) rotate(270deg);
 }
 
 .modal {
